@@ -12,7 +12,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6 group">
               <img
-                src="/midas-logo.svg"
+                src="/midas-logo.png"
                 alt="Midas Markets Logo"
                 className="w-12 h-12 rounded-xl shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-all duration-300"
               />

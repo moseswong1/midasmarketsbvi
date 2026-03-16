@@ -23,7 +23,7 @@ export function Header() {
           {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
               <img
-                src="/midas-logo.svg"
+                src="/midas-logo.png"
                 alt="Midas Markets Logo"
                 className="w-11 h-11 rounded-xl shadow-lg shadow-primary/25 group-hover:shadow-primary/40 transition-all duration-300"
               />
