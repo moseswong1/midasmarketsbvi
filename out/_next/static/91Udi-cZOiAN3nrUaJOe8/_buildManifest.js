@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/midasmarketsbvi//_next/:path+",
+        "destination": "/midasmarketsbvi/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
