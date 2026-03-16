@@ -1,5 +1,5 @@
-:HL["/midasmarketsbvi/_next/static/chunks/dbdf5ae1d4a738e8.css","style"]
+:HL["/midasmarketsbvi/_next/static/chunks/5a166aa80a89b616.css","style"]
 :HL["/midasmarketsbvi/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/midasmarketsbvi/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/midas-logo.svg","image"]
-0:{"buildId":"91Udi-cZOiAN3nrUaJOe8","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"platforms","paramType":null,"paramKey":"platforms","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"4wwf1-_asDH8hjgz-OT35","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"platforms","paramType":null,"paramKey":"platforms","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
