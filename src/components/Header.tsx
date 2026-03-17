@@ -19,15 +19,15 @@ export function Header() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-background/95 backdrop-blur-xl border-b border-border shadow-lg shadow-background/50' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group">
               <img
                 src="/midas-logo.png"
                 alt="Midas Markets Logo"
-                className="w-11 h-11 rounded-xl shadow-lg shadow-primary/25 group-hover:shadow-primary/40 transition-all duration-300"
+                className="w-16 h-16 rounded-xl shadow-lg shadow-primary/25 group-hover:shadow-primary/40 transition-all duration-300"
               />
-              <span className="text-xl font-bold text-foreground">Midas Markets</span>
+              <span className="text-2xl font-bold text-foreground">Midas Markets</span>
             </Link>
 
           {/* Desktop Navigation */}
