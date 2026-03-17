@@ -9,34 +9,54 @@ export const metadata = {
 export default function LegalPage() {
   const documents = [
     {
-      title: "Client Agreement",
-      description: "Terms and conditions governing the relationship between Midas Markets and its clients.",
-      updated: "January 2024"
+      title: "Account Opening Declarations",
+      description: "Declarations and acknowledgements required when opening a trading account with Midas Markets.",
+      updated: "1 March 2026"
     },
     {
-      title: "Risk Disclosure",
-      description: "Important information about the risks associated with CFD trading.",
-      updated: "January 2024"
+      title: "Complaint Handling Process",
+      description: "Our process for handling client complaints fairly and efficiently, including escalation procedures.",
+      updated: "1 March 2026"
     },
     {
-      title: "Privacy Policy",
-      description: "How we collect, use, and protect your personal information.",
-      updated: "January 2024"
+      title: "Cookies Policy",
+      description: "Information about how we use cookies and similar tracking technologies on our website.",
+      updated: "1 March 2026"
     },
     {
       title: "Order Execution Policy",
-      description: "Our policy for executing client orders fairly and efficiently.",
-      updated: "January 2024"
+      description: "Our policy for executing client orders fairly and efficiently in the best interests of our clients.",
+      updated: "1 March 2026"
     },
     {
-      title: "Conflicts of Interest Policy",
-      description: "How we identify and manage potential conflicts of interest.",
-      updated: "January 2024"
+      title: "Prevention of Money Laundering & Terror Financing Manual",
+      description: "Our Anti-Money Laundering (AML) and Counter-Terrorism Financing (CTF) policies and procedures.",
+      updated: "1 March 2026"
     },
     {
-      title: "AML Policy",
-      description: "Our Anti-Money Laundering and Know Your Customer policies.",
-      updated: "January 2024"
+      title: "Privacy Policy",
+      description: "How we collect, use, store, and protect your personal information in accordance with applicable law.",
+      updated: "1 March 2026"
+    },
+    {
+      title: "Risk Disclosure Policy",
+      description: "Important information about the risks associated with CFD and leveraged trading that you should read before trading.",
+      updated: "1 March 2026"
+    },
+    {
+      title: "Social Trading Terms and Conditions",
+      description: "Terms and conditions governing the use of our social trading features, including copy trading.",
+      updated: "1 March 2026"
+    },
+    {
+      title: "Terms and Conditions",
+      description: "The full terms and conditions governing the relationship between Midas Markets Limited and its clients.",
+      updated: "1 March 2026"
+    },
+    {
+      title: "Website Terms of Use",
+      description: "Terms governing your use of the Midas Markets website and its content.",
+      updated: "1 March 2026"
     }
   ];
 
