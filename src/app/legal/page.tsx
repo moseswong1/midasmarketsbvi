@@ -11,52 +11,62 @@ export default function LegalPage() {
     {
       title: "Account Opening Declarations",
       description: "Declarations and acknowledgements required when opening a trading account with Midas Markets.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/account-opening-declarations.pdf"
     },
     {
       title: "Complaint Handling Process",
       description: "Our process for handling client complaints fairly and efficiently, including escalation procedures.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/complaint-handling-process.pdf"
     },
     {
       title: "Cookies Policy",
       description: "Information about how we use cookies and similar tracking technologies on our website.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/cookies-policy.pdf"
     },
     {
       title: "Order Execution Policy",
       description: "Our policy for executing client orders fairly and efficiently in the best interests of our clients.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/order-execution-policy.pdf"
     },
     {
       title: "Prevention of Money Laundering & Terror Financing Manual",
       description: "Our Anti-Money Laundering (AML) and Counter-Terrorism Financing (CTF) policies and procedures.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/aml-policy.pdf"
     },
     {
       title: "Privacy Policy",
       description: "How we collect, use, store, and protect your personal information in accordance with applicable law.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/privacy-policy.pdf"
     },
     {
       title: "Risk Disclosure Policy",
       description: "Important information about the risks associated with CFD and leveraged trading that you should read before trading.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/risk-disclosure-policy.pdf"
     },
     {
       title: "Social Trading Terms and Conditions",
       description: "Terms and conditions governing the use of our social trading features, including copy trading.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/social-trading-terms.pdf"
     },
     {
       title: "Terms and Conditions",
       description: "The full terms and conditions governing the relationship between Midas Markets Limited and its clients.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/terms-and-conditions.pdf"
     },
     {
       title: "Website Terms of Use",
       description: "Terms governing your use of the Midas Markets website and its content.",
-      updated: "1 March 2026"
+      updated: "1 March 2026",
+      file: "/documents/website-terms-of-use.pdf"
     }
   ];
 
@@ -105,10 +115,20 @@ export default function LegalPage() {
                 className="p-6 bg-card rounded-xl border border-border hover:border-primary/30 transition"
               >
                 <div className="flex items-start justify-between">
-                  <div>
+                  <div className="flex-1 min-w-0">
                     <h3 className="text-lg font-semibold text-foreground mb-2">{doc.title}</h3>
                     <p className="text-sm text-muted-foreground mb-3">{doc.description}</p>
-                    <div className="text-xs text-muted-foreground">Last updated: {doc.updated}</div>
+                    <div className="text-xs text-muted-foreground mb-4">Last updated: {doc.updated}</div>
+                    <a
+                      href={doc.file}
+                      download
+                      className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                      </svg>
+                      Download PDF
+                    </a>
                   </div>
                   <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 ml-4">
                     <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
